@@ -35,6 +35,10 @@ function power6(timeFraction) {
     return Math.pow(timeFraction, 6);
 }
 
+function power5 (timeFraction) {
+    return Math.pow(timeFraction, 5);
+}
+
 function OnePointFiveBack(timeFraction) {
     var x = 1.5;
     return Math.pow(timeFraction, 2) * ((x + 1) * timeFraction - x);
